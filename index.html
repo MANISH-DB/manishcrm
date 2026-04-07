@@ -1,9 +1,75 @@
 <!DOCTYPE html>
-<html>
-<body style="margin:0">
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <!-- Google Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;600&display=swap" rel="stylesheet">
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Poppins', sans-serif;
+    }
+
+    body {
+      background: #f5f7fb;
+    }
+  
+    /* Container */
+    .container {
+      padding: 10px;
+    }
+
+    /* App Frame */
+    .app-frame {
+      width: 100%;
+      height: 90vh;
+      border: none;
+      border-radius: 12px;
+      box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+      background: white;
+    }
+
+    /* Footer */
+    footer {
+      text-align: center;
+      padding: 10px;
+      font-size: 12px;
+      color: #666;
+    }
+
+    /* Loader */
+    #loader {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      font-size: 18px;
+      color: #333;
+    }
+  </style>
+</head>
+
+<body>
+
+
+  <div class="container">
+    <div id="loader">Loading App...</div>
+
     <iframe 
+      class="app-frame"
       src="https://script.google.com/macros/s/AKfycbzBLPk84wuTgouWl-mZghhZLnjQ6DblzjnutB7VpBL81rl_GsQwZOarOv4JW2W3TSyh/exec"
       onload="document.getElementById('loader').style.display='none'">
     </iframe>
+  </div>
+
+  <footer>
+    © 2026 | Powered by Manish 🚀
+  </footer>
+
 </body>
 </html>

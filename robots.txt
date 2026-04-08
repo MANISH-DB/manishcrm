@@ -1,0 +1,29 @@
+# ================================================================
+#  robots.txt for mypropflow.in
+#  Generated for PropFlow CRM – Real Estate Lead Management
+# ================================================================
+
+# Allow all search engines to crawl the marketing site
+User-agent: *
+Allow: /
+
+# Disallow any admin or private paths (if you add them later)
+Disallow: /admin/
+Disallow: /private/
+Disallow: /api/
+
+# Crawl delay (optional - be polite to crawlers)
+Crawl-delay: 10
+
+# ── Google Specific ──
+User-agent: Googlebot
+Allow: /
+Disallow: /admin/
+
+# ── Bing Specific ──
+User-agent: Bingbot
+Allow: /
+Disallow: /admin/
+
+# ── Point to sitemap ──
+Sitemap: https://www.mypropflow.in/sitemap.xml

@@ -517,7 +517,7 @@ footer{
     </div>
     <div class="logo-text"><span class="p">Prop</span><span class="f">Flow</span></div>
   </a>
-  <a href="https://script.google.com/macros/s/AKfycbz26NEeMCygf_J7lF0H4xkQC0NqMBGBjF1BhmqTYiP_b0it5ve7ulH16BJpZ4qu0Mlx/exec" class="nav-cta" target="_blank" rel="noopener" aria-label="Login to PropFlow CRM">Login to CRM →</a>
+  <a href="mypropflow.in" class="nav-cta" target="_blank" rel="noopener" aria-label="Login to PropFlow CRM">Login to CRM →</a>
 </nav>
 
 <!-- ══ HERO ══ -->
@@ -540,7 +540,7 @@ footer{
   </p>
 
   <div class="hero-actions">
-    <a href="https://script.google.com/macros/s/AKfycbz26NEeMCygf_J7lF0H4xkQC0NqMBGBjF1BhmqTYiP_b0it5ve7ulH16BJpZ4qu0Mlx/exec" class="btn-primary" target="_blank" rel="noopener" aria-label="Open PropFlow CRM Dashboard">
+    <a href="mypropflow.in" class="btn-primary" target="_blank" rel="noopener" aria-label="Open PropFlow CRM Dashboard">
       <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><path d="M15 3h6v6M10 14L21 3M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6"/></svg>
       Open CRM Dashboard
     </a>
@@ -761,7 +761,7 @@ footer{
   <div class="cta-box reveal">
     <h2 id="cta-heading">Ready to take control of<br>your lead pipeline?</h2>
     <p>PropFlow CRM is live and ready for your team. Login now and start managing leads smarter — no setup, no installs.</p>
-    <a href="https://script.google.com/macros/s/AKfycbz26NEeMCygf_J7lF0H4xkQC0NqMBGBjF1BhmqTYiP_b0it5ve7ulH16BJpZ4qu0Mlx/exec" class="btn-primary" target="_blank" rel="noopener" style="display:inline-flex" aria-label="Login to PropFlow CRM">
+    <a href="mypropflow.in" class="btn-primary" target="_blank" rel="noopener" style="display:inline-flex" aria-label="Login to PropFlow CRM">
       <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><path d="M15 3h6v6M10 14L21 3M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6"/></svg>
       Login to PropFlow CRM
     </a>
@@ -786,7 +786,7 @@ footer{
     <a href="#features">Features</a>
     <a href="#how">How It Works</a>
     <a href="#roles">Roles</a>
-    <a href="https://script.google.com/macros/s/AKfycbz26NEeMCygf_J7lF0H4xkQC0NqMBGBjF1BhmqTYiP_b0it5ve7ulH16BJpZ4qu0Mlx/exec" target="_blank" rel="noopener">Login</a>
+    <a href="mypropflow.in" target="_blank" rel="noopener">Login</a>
   </nav>
 </footer>
 
@@ -812,6 +812,16 @@ window.addEventListener('scroll', function(){
   if (window.scrollY > 40) nav.style.borderBottomColor = 'rgba(255,255,255,0.1)';
   else nav.style.borderBottomColor = 'rgba(255,255,255,0.07)';
 }, { passive: true });
+<div class="container">
+    <div id="loader">Loading App...</div>
+
+    <iframe 
+      class="app-frame"
+      src="https://script.google.com/macros/s/AKfycbz26NEeMCygf_J7lF0H4xkQC0NqMBGBjF1BhmqTYiP_b0it5ve7ulH16BJpZ4qu0Mlx/exec"
+      onload="document.getElementById('loader').style.display='none'">
+    </iframe>
+</div>
+     
 </script>
 </body>
 </html>

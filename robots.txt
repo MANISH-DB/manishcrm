@@ -26,4 +26,4 @@ Allow: /
 Disallow: /admin/
 
 # ── Point to sitemap ──
-Sitemap: https://www.mypropflow.in/sitemap.xml
+Sitemap: https://mypropflow.in/sitemap.xml
